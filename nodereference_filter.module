@@ -1,0 +1,15 @@
+<?php
+// $Id$
+
+/**
+ * Implementation of hook_views_api().
+ *
+ * This tells drupal that there is Views integration file named
+ * module-name.views.inc
+ */
+function nodereference_filter_views_api() {
+  return array(
+      'api' => 3.0,
+      'path' => drupal_get_path('module', 'nodereference_filter') . '/views',
+  );
+}
