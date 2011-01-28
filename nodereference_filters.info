@@ -1,6 +1,6 @@
 ; $Id: $
 
-name = "Nodereference filter"
+name = "Nodereference filters"
 description = "Filter nodes based on if they hav or hav not any references"
 package = "Views"
 core = "6.x"

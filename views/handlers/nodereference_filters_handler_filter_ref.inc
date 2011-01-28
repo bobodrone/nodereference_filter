@@ -1,6 +1,13 @@
 <?php
+// $Id$
 
-class nodereference_filter_handler_filter_ref extends views_handler_filter_in_operator {
+/*
+ * @file
+ * Provides a filter to views that filters out nodes that have or have not nodes that are referenced to ohter nodes
+ */
+
+
+class nodereference_filters_handler_filter_ref extends views_handler_filter_in_operator {
   /**
    * Constructor implementation
    */

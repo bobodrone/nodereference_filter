@@ -13,9 +13,9 @@
  * This tells drupal that there is Views integration file named
  * module-name.views.inc
  */
-function nodereference_filter_views_api() {
+function nodereference_filters_views_api() {
   return array(
       'api' => 3.0,
-      'path' => drupal_get_path('module', 'nodereference_filter') . '/views',
+      'path' => drupal_get_path('module', 'nodereference_filters') . '/views',
   );
 }
