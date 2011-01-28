@@ -3,7 +3,7 @@
 class nodereference_filter_handler_filter_ref extends views_handler_filter_in_operator {
   /**
    * Constructor implementation
-   lo */
+   */
   function construct() {
     parent::construct();
   }
@@ -52,6 +52,6 @@ class nodereference_filter_handler_filter_ref extends views_handler_filter_in_op
       $db_info = content_database_info($field_info);
       $query = "(SELECT {$db_info['columns']['nid']['column']} FROM {{$db_info['table']}})";
       $this->query->add_where($this->options['group'], "$this->table_alias.nid " . $this->operator . $query);
-    }   
+    }
   }
 }

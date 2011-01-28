@@ -2,6 +2,12 @@
 // $Id$
 
 /**
+ * @file
+ * Provides a filter to views that filters out nodes that have or have not nodes that are referenced to ohter nodes.
+ */
+
+
+/**
  * Implementation of hook_views_api().
  *
  * This tells drupal that there is Views integration file named

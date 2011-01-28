@@ -13,7 +13,7 @@ function nodereference_filter_views_handlers() {
     ),
   );
 }
-function nodereference_filter_views_data_alter(&$data)  {
+function nodereference_filter_views_data_alter(&$data) {
   $data['node']['nodereference_filter'] = array(
     'title' => t('Nodereference filter'),
     'help' => t('Filter out nodes that have or have not any node references'),
